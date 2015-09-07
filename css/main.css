@@ -64,7 +64,12 @@ body{
     -moz-border-radius: 0px;
     border-radius: 0px;
     height: 24px;
-    border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid #dcdcdc;
+    background-image: none !important;
+    background-color: #fafafa;
+    -webkit-box-shadow: inset 0px 2px 0px #f6f5f5;
+    -moz-box-shadow: inset 0px 2px 0px #f6f5f5;
+    box-shadow: inset 0px 2px 0px #f6f5f5;
 }
 
 .box .progress .progress-bar{
